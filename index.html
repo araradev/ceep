@@ -15,9 +15,11 @@
           <h1 class="title">
             Ceep
           </h1>
-          <p class="subtitle">E aí? quais as suas tarefas de hoje?</p>
+          <p class="subtitle">E aí? quais as suas tarefas?</p>
           <form class="form" action="">
-            <input class="form-input" type="text" data-form-input>
+            <input class="form-input"  type="text" data-form-input>
+            <input class="form-calendar" placeholder="DD/MM/YYYY"  type="datetime-local" data-form-date>
+
             <button class="form-button material-icons" data-form-button>add </button>
           </form>
           <ul class="list" data-list> 
@@ -26,6 +28,7 @@
         </div>
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script type="module" src="assets/components/main.js"></script>
 </body>
 </html>

@@ -112,7 +112,14 @@ body {
   outline: none;
   background-color: #F6F1D1;
   border-color: rgba(255, 255, 255, 0.1);
-  width: 95%;
+  width: 43%;
+}
+.form-calendar {
+  border: none;
+  outline: none;
+  background-color: #F6F1D1;
+  border-color: rgba(255, 255, 255, 0.1);
+  /* width: 10%; */
 }
 .form-button {
   border: 1px;
@@ -189,6 +196,8 @@ body {
   text-decoration: line-through;
 }
 
-
+.content-data{
+  color: #F6F1D1;
+}
 
 /*# sourceMappingURL=style.css.map */
